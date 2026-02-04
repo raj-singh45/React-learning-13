@@ -8,6 +8,7 @@ import Hii from "./Hii";
 import Hello from "./Hello";
 import Zero from "./Zero";
 import Github from "./Github";
+import Power from "./Power";
 
 
 
@@ -30,7 +31,12 @@ function App() {
                   <Route path="Hii" element={<Hii></Hii>}></Route>
                </Route>
                <Route path = "/Github/:name" element = {<Github></Github>}></Route>
+                <Route path  = "/Power" element = {<Power></Power>}>
+                </Route>
+               
             </Routes>
+            <Link to  = "/Power">
+            <button>View</button></Link>
          </BrowserRouter>
       </>
    )
