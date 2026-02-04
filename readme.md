@@ -1,7 +1,6 @@
 use cmd npm i react react-dom, react-router
 npx i parcel index.html
 
-#in nesting we provide Relative path means detail to hello or hi 
-if start from/Home it will not correct path it find Hello from root directory which is wrong thats why we dont use / in nesting path
+Github/:name name become dynamic this name catch by useParam and by using api we get profile pic and name of Github user when user enter for example http://localhost:1234/Github/bcalloway
 
 #index the file which is connected through detail initially 
